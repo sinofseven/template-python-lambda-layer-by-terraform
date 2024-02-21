@@ -7,9 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-boto3 = "1.26.59"
-boto3-stubs = {version = "1.26.59", extras = ["dynamodb", "s3", "sqs"]}
-psycopg2-binary = "^2.9.5"
+psycopg2-binary = "*"
 
 
 [build-system]

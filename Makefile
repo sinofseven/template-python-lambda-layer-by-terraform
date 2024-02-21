@@ -7,7 +7,7 @@ clean:
 	find layers -type f -name requirements.txt | xargs rm -f
 
 build: 
-	./build.sh --name base --arch amd64
+	./build.sh --name base --arch amd64 --runtime-version 3.10
 
 package:
 	sam package \
